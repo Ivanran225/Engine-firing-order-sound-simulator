@@ -31,7 +31,7 @@ def play_tone(f, volume=0.5, fs=44100, duration=0.01):
 
     # Close the stream (outside the with block)
     stream.stop_stream()
-    stream.close()
+    #stream.close()
 
 if __name__ == "__main__":
   # Example usage: Play three tones with different frequencies
